@@ -8,3 +8,7 @@
         <script src="{{ $val }}"></script>
     {{ end }}
 {{ end }}
+
+{{ with .Site.Params.cloudflareWebAnalytics }}
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "{{.}}"}'></script>
+{{ end }}

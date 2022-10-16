@@ -12,6 +12,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 
 # googleAnalytics = ""
 # disqusShortname = ""
+cloudflareWebAnalytics = ""
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -55,13 +56,13 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Nice theme for homepages and blogs"
+  description = "Nice theme for homepages and blogs that are behind cloudflare"
   keywords = ""
   images = [""]
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Hello Friend NG"
+  homeSubtitle = "Hello Friend NG Cloudflare"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
