@@ -4,7 +4,7 @@
 
 ## General information
 
-This theme is a fork of [Hello Friend NG](https://github.com/rhazdon/hugo-theme-hello-friend-ng.git) to add certain changes for Cloudflare pages support
+This theme is a fork of [Hello Friend NG](https://github.com/rhazdon/hugo-theme-hello-friend-ng.git) to add certain changes for Cloudflare web analytics support
 
 ---
 
