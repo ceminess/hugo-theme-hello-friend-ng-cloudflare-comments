@@ -1,10 +1,10 @@
-# Hello Friend NG
+# Hello Friend NG Cloudflare
 
 ![Hello Friend NG](https://dsh.re/d914c)
 
-## General informations
+## General information
 
-This theme was highly inspired by the [hello-friend](https://github.com/panr/hugo-theme-hello-friend) and [hermit](https://github.com/Track3/hermit). A lot of kudos for their great work.
+This theme is a fork of [Hello Friend NG](https://github.com/rhazdon/hugo-theme-hello-friend-ng.git) to add certain changes for Cloudflare pages support
 
 ---
 
@@ -43,31 +43,33 @@ This theme was highly inspired by the [hello-friend](https://github.com/panr/hug
 
 ## How to start
 
-You can download the theme manually by going to [https://github.com/rhazdon/hugo-theme-hello-friend-ng.git](https://github.com/rhazdon/hugo-theme-hello-friend-ng.git) and pasting it to `themes/hello-friend-ng` in your root directory.
+You can download the theme manually by going to [https://github.com/L1ghtn1ng/hugo-theme-hello-friend-ng-cloudflare.git](https://github.com/L1ghtn1ng/hugo-theme-hello-friend-ng-cloudflare.git) and pasting it to `themes/hello-friend-ng-cloudflare` in your root directory.
 
 You can also clone it directly to your Hugo folder:
 
 ``` bash
-$ git clone https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
+$ git clone https://github.com/L1ghtn1ng/hugo-theme-hello-friend-ng-cloudflare.git themes/hello-friend-ng-cloudflare
 ```
 
 If you don't want to make any radical changes, it's the best option, because you can get new updates when they are available. To do so, include it as a git submodule:
 
 ``` bash
-$ git submodule add https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
+$ git submodule add https://github.com/L1ghtn1ng/hugo-theme-hello-friend-ng-cloudflare.git themes/hello-friend-ng-cloudflare
 ```
 
 ## How to configure
 
-The theme doesn't require any advanced configuration. Just copy the following config file.
+If the theme doesn't require any advanced configuration.
+Just copy the following config file.
 To see all possible configurations, [check the docs](docs/config.md).
-Note: There are more options to configure. Take a look into the `config.toml` in `exampleSite`.
+Note: There are more options to configure.
+Take a look into the `config.toml` in `exampleSite`.
 
 ``` toml
 baseurl      = "localhost"
 title        = "My Blog"
 languageCode = "en-us"
-theme        = "hello-friend-ng"
+theme        = "hello-friend-ng-cloudflare"
 paginate     = 10
 
 [params]
@@ -122,7 +124,7 @@ paginate     = 10
 
 ### Built-in shortcodes
 
-Of course you are able to use all default shortcodes from hugo (https://gohugo.io/content-management/shortcodes/).
+Of course, you are able to use all default shortcodes from hugo (https://gohugo.io/content-management/shortcodes/).
 
 #### image
 
