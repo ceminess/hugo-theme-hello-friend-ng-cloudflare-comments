@@ -1,7 +1,7 @@
 baseURL = "https://example.com"
-title   = "Hello Friend NG"
+title   = "Hello Friend NG Cloudflare"
 languageCode = "en-us"
-theme = "hello-friend-ng"
+theme = "hello-friend-ng-cloudflare"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
