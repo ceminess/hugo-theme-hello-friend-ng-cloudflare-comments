@@ -131,7 +131,7 @@
     {{ end }}
 
     {{ if .Site.Params.Commento.Url }}
-      <script defer src={{ .Site.Params.Commento.Url }}></script>
+      <script defer src={{ .Site.Params.Commento.Url }} nonce=""></script>
       <div id="commento"></div>
     {{ end }}
 
