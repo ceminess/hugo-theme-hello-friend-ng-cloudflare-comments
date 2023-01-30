@@ -75,12 +75,21 @@ disableHugoGeneratorInject = false
   disableReadOtherPosts = false
 
   # Enable theme toggle
-  # 
-  # This options enables the theme toggle for the theme. 
-  # Per default, this option is off. 
-  # The theme is respecting the prefers-color-scheme of the operating systeme. 
-  # With this option on, the page user is able to set the scheme he wants. 
+  #
+  # This options enables the theme toggle for the theme.
+  # Per default, this option is off.
+  # The theme is respecting the prefers-color-scheme of the operating systeme.
+  # With this option on, the page user is able to set the scheme he wants.
   enableThemeToggle = false
+
+  # Set a default theme
+  #
+  # This option allows you to set a default theme (light or dark) for the website.
+  # If this is not set, the browser will pick a theme based on OS settings
+  # If this is set to "dark" or "light", the site will be in that theme unless
+  # enableThemeToggle is on, and the user has changed the theme.
+  #
+  defaultTheme = "dark"
 
   # Sharing buttons
   #

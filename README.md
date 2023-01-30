@@ -30,7 +30,7 @@ This theme is a fork of [Hello Friend NG](https://github.com/rhazdon/hugo-theme-
 
 ## Features
 
-- Theming: **dark/light mode**, depending on your system preferences or the users choice
+- Theming: **dark/light mode**, set by the site, operating system, or the users choose an optional theme toggle.
 - Great reading experience thanks to [**Inter font**](https://rsms.me/inter/), made by [Rasmus Andersson](https://rsms.me/about/)
 - Nice code highlighting thanks to [**PrismJS**](https://prismjs.com)
 - An easy way to modify the theme with Hugo tooling
@@ -143,7 +143,7 @@ Example:
 
 ### Code highlighting
 
-By default the theme is using PrismJS to color your code syntax. All you need to do is to wrap you code like this:
+By default the theme is using Hugo's builtin code syntax highlighter. All you need to do is to wrap your code like this:
 
 <pre>
 ``` html
@@ -159,13 +159,13 @@ Check the [docs](docs/favicons.md).
 
 You wrote an article and recorded it? Or do you have a special music that you would like to put on a certain article? Then you can do this now without further ado.
 
-In your article add to your front matters part:
+In your article, add to your front matter:
 
 ```yaml
 audio: path/to/file.mp3
 ```
 
-## Social Icons:
+## Social Icons
 
 A large variety of social icons are available and can be configured like this:
 
@@ -194,14 +194,10 @@ Either you comment it out completely or you write the following in
 
 ## How to edit the theme
 
-Just edit it. You don't need any node stuff. ;)
+Just edit it. You don't need any node stuff. :-)
 
-## Sponsoring
 
-If you like my work and if you think this project is worth to support it, just <br />
-<a href="https://www.buymeacoffee.com/djordjeatlialp" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-green.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
-
-## Licence
+## License
 
 Copyright © 2019-2021 Djordje Atlialp
 
